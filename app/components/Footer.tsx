@@ -10,7 +10,7 @@ export default function Footer() {
             privacy
           </Link>
           <a
-            href="https://github.com/lesetja-malapane"
+            href="https://github.com/lesetjaa"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-foreground"
@@ -18,7 +18,7 @@ export default function Footer() {
             github
           </a>
           <a
-            href="https://linkedin.com/in/lesetja-malapane-644885326"
+            href="https://linkedin.com/in/lesetjaa"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-foreground"
