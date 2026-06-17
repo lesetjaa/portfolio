@@ -28,24 +28,24 @@ export default function ContactPage() {
         <ul className="grid gap-3 sm:grid-cols-2">
           <li>
             <a
-              href="https://linkedin.com/in/lesetja-malapane-644885326"
+              href="https://linkedin.com/in/lesetjaa"
               target="_blank"
               rel="noopener noreferrer"
               className="block rounded-lg border border-border bg-surface px-4 py-3 hover:border-accent transition-colors"
             >
               <div className="text-sm font-medium">LinkedIn</div>
-              <div className="text-xs text-muted">in/lesetja-malapane</div>
+              <div className="text-xs text-muted">in/lesetjaa</div>
             </a>
           </li>
           <li>
             <a
-              href="https://github.com/lesetja-malapane"
+              href="https://github.com/lesetjaa"
               target="_blank"
               rel="noopener noreferrer"
               className="block rounded-lg border border-border bg-surface px-4 py-3 hover:border-accent transition-colors"
             >
               <div className="text-sm font-medium">GitHub</div>
-              <div className="text-xs text-muted">@lesetja-malapane</div>
+              <div className="text-xs text-muted">@lesetjaa</div>
             </a>
           </li>
         </ul>
