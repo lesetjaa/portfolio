@@ -29,10 +29,28 @@ const education: Entry[] = [
     org: "University of South Africa (UNISA)",
     role: "Bachelor of Science, Computing",
     period: "Jan 2026 – Present",
-    location: "Pretoria, GP",
+    location: "Pretoria, GP & Remote",
     bullets: [
       "First-year coursework in programming, data structures, and mathematics.",
       "Gaining foundational knowledge in software development and computer science principles.",
+    ],
+  },
+  {
+    org: "Udemy",
+    role: "The Complete Full-Stack Web Development Bootcamp",
+    period: "2026 June – Present",
+    location: "Remote",
+    bullets: [
+      "Learning full-stack web development with a focus on HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps",
+    ],
+  },
+  {
+    org: "Udemy",
+    role: "100 Days of Code™: The Complete Python Pro Bootcamp",
+    period: "2026 June – Present",
+    location: "Remote",
+    bullets: [
+      "Learning full-stack web development with a focus on HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps",
     ],
   },
   {
