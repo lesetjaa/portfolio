@@ -26,6 +26,7 @@ const projects: Project[] = [
     imageUrl: "/progress_pals.png",
     links: [
       {label: "App Store", href: "https://apps.apple.com/sa/app/progress-pals/id6759215046"},
+      {label: "Github", href: "https://github.com/lesetjaa/progress-pals"}
     ],
     sectionRef: "progress_pals",
   },
