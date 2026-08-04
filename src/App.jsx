@@ -13,24 +13,24 @@ import profileImage from "/public/images/profile_image.webp";
 
 function App() {
   const socialLinks = [
-    { icon: githubIcon, alt: "GitHub", link: "https://github.com/Lesetja-Malapane" },
-    { icon: linkedinIcon, alt: "LinkedIn", link: "https://linkedin.com/in/lesetja-malapane-644885326" },
+    { icon: githubIcon, alt: "GitHub", link: "https://github.com/lesetjaa" },
+    { icon: linkedinIcon, alt: "LinkedIn", link: "https://linkedin.com/in/lesetjaa" },
     { icon: xTwitterIcon, alt: "X / Twitter", link: "https://x.com/lesetjaa_" },
     { icon: instagramIcon, alt: "Instagram", link: "https://instagram.com/lesetjaa_" },
     { icon: tiktokIcon, alt: "TikTok", link: "https://tiktok.com/@lesetjaa_" },
   ];
 
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center justify-center p-6 relative font-sans">
+    <div className="min-h-screen bg-black flex flex-col items-center justify-center p-6 relative font-sans">
       <div className="flex flex-col-reverse md:flex-row items-center justify-center w-full max-w-6xl gap-12 md:gap-24">
         
         {/* Left Section (Text) */}
         <div className="text-center md:text-left space-y-6">
-          <h1 className="text-4xl md:text-6xl font-bold text-black tracking-tight">
+          <h1 className="text-4xl md:text-6xl font-bold text-white tracking-tight">
             Coming Soon
           </h1>
           
-          <p className="text-lg md:text-xl text-gray-600 font-medium">
+          <p className="text-lg md:text-xl text-gray-400 font-medium">
             Working on a new portfolio, Stay Tuned!
           </p>
 
@@ -47,7 +47,7 @@ function App() {
                 <img 
                   src={social.icon} 
                   alt={social.alt} 
-                  className="w-8 h-8 opacity-40 hover:opacity-100 transition-opacity duration-300 cursor-pointer" 
+                  className="w-8 h-8 opacity-90 hover:opacity-100 transition-opacity duration-300 cursor-pointer brightness-0 invert" 
                 />
               </a>
             ))}
@@ -55,7 +55,7 @@ function App() {
         </div>
 
         <div className="shrink-0">
-          <div className="w-64 h-64 md:w-96 md:h-96 rounded-full shadow-inner border border-black-200 ">
+          <div className="w-64 h-64 md:w-96 md:h-96 rounded-full shadow-inner border border-white-200 ">
             <img 
               src={profileImage} 
               alt="Profile Image" 
