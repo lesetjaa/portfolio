@@ -18,8 +18,8 @@ function App() {
         
         {/* Left Section (Text) */}
         <div className="text-center md:text-left space-y-6">
-          <h1 className="text-4xl md:text-6xl font-bold text-white tracking-tight">
-            Coming Soon
+          <h1 className="text-4xl md:text-5xl font-bold text-white tracking-tight">
+            Coming Soon<span className="animate-blink font-bold">_</span>
           </h1>
           
           <p className="text-lg md:text-xl text-gray-400 font-medium">
