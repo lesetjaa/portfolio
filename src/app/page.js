@@ -1,24 +1,16 @@
 import React from 'react';
 
-// Importing SVGs from your assets folder
-// Note: Vite allows importing SVGs directly as URL strings usually, 
-// or as components if using a plugin. Here we treat them as image sources.
-import githubIcon from './assets/github-brands-solid-full.svg';
-import instagramIcon from './assets/instagram-brands-solid-full.svg';
-import linkedinIcon from './assets/linkedin-brands-solid-full.svg';
-import tiktokIcon from './assets/tiktok-brands-solid-full.svg';
-import xTwitterIcon from './assets/x-twitter-brands-solid-full.svg';
-import profileImage from "/public/images/profile_image.webp";
-// import reactIcon from './assets/react.svg'; 
+const socialLinks = [
+  { icon: '/assets/github-brands-solid-full.svg', alt: 'GitHub', link: 'https://github.com/lesetjaa' },
+  { icon: '/assets/linkedin-brands-solid-full.svg', alt: 'LinkedIn', link: 'https://linkedin.com/in/lesetjaa' },
+  { icon: '/assets/x-twitter-brands-solid-full.svg', alt: 'X / Twitter', link: 'https://x.com/lesetjaa_' },
+  { icon: '/assets/instagram-brands-solid-full.svg', alt: 'Instagram', link: 'https://instagram.com/lesetjaa_' },
+  { icon: '/assets/tiktok-brands-solid-full.svg', alt: 'TikTok', link: 'https://tiktok.com/@lesetjaa_' },
+];
+
+const profileImage = '/images/profile_image.webp';
 
 function App() {
-  const socialLinks = [
-    { icon: githubIcon, alt: "GitHub", link: "https://github.com/lesetjaa" },
-    { icon: linkedinIcon, alt: "LinkedIn", link: "https://linkedin.com/in/lesetjaa" },
-    { icon: xTwitterIcon, alt: "X / Twitter", link: "https://x.com/lesetjaa_" },
-    { icon: instagramIcon, alt: "Instagram", link: "https://instagram.com/lesetjaa_" },
-    { icon: tiktokIcon, alt: "TikTok", link: "https://tiktok.com/@lesetjaa_" },
-  ];
 
   return (
     <div className="min-h-screen bg-black flex flex-col items-center justify-center p-6 relative font-sans">
